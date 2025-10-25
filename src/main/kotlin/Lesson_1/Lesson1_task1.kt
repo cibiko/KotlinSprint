@@ -1,11 +1,9 @@
 package org.example.Lesson_1
 
-fun main(){
-    var SumOrder: Int = 75
-    val Gratitude: String = "Благодарим Вас за покупку "
+fun main() {
+    val sumorder: Int = 75
+    val gratitude: String = "Благодарим Вас за покупку "
 
-    println(SumOrder)
-    println(Gratitude)
-
-
+    println(sumorder)
+    println(gratitude)
 }

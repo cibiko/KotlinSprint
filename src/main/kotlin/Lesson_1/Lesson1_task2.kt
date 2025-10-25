@@ -1,12 +1,14 @@
 package org.example.Lesson_1
 
 fun main() {
-    val sumorder: Int = 75
-    val gratitude: String = "Благодарим Вас за покупку "
-//  val storage = 2000
-    val storage = 1999
+    val orderCount: Int = 75
+    val textWithThanks: String = "Благодарим Вас за покупку "
+    var numberOfWorkers = 2000
 
-    println(storage)
-    println(sumorder)
-    println(gratitude)
+    println(orderCount)
+    println(textWithThanks)
+//    println(numberOfWorkers)
+
+    numberOfWorkers = 1999
+
 }

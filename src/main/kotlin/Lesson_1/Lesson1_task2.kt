@@ -4,11 +4,11 @@ fun main() {
     val orderCount: Int = 75
     val textWithThanks: String = "Благодарим Вас за покупку "
     var numberOfWorkers = 2000
+    numberOfWorkers = 1999
 
     println(orderCount)
     println(textWithThanks)
-//    println(numberOfWorkers)
-
-    numberOfWorkers = 1999
+//  println(numberOfWorkers)
+    println(numberOfWorkers)
 
 }

@@ -1,7 +1,7 @@
 package org.example.Lesson_1
 
 fun main() {
-    val yearOfFlight = "1991"
+    val yearOfFlight = "1961"
     var hour = "09"
     var minute = "07"
 

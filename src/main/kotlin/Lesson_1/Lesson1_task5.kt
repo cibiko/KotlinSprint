@@ -1,16 +1,16 @@
 package org.example.Lesson_1
 
-const val totalSeconds = 6480
-const val secondsInHour = 3600
-const val secondsInMinute = 60
+const val TOTAL_SECONDS = 6480
+const val SECONDS_IN_HOUR = 3600
+const val SECONDS_IN_MINUTE = 60
 
 fun main() {
-    val hourOfFlight = totalSeconds / secondsInHour
-    val remainingTotalSeconds = totalSeconds % secondsInHour
-    val minuteOfFlight = remainingTotalSeconds / secondsInMinute
-    val secondsOfFlight = remainingTotalSeconds % secondsInMinute
+    val hourOfFlight = TOTAL_SECONDS / SECONDS_IN_HOUR
+    val remainingTotalSeconds = TOTAL_SECONDS % SECONDS_IN_HOUR
+    val minuteOfFlight = remainingTotalSeconds / SECONDS_IN_MINUTE
+    val secondsOfFlight = remainingTotalSeconds % SECONDS_IN_MINUTE
 
-    val timeFormatted = ("%02d:%02d:%02d".format(hourOfFlight, minuteOfFlight,secondsOfFlight))
+    val timeFormatted = ("%02d:%02d:%02d".format(hourOfFlight, minuteOfFlight, secondsOfFlight))
 
     print(timeFormatted)
 }

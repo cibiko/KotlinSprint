@@ -15,5 +15,4 @@ fun main() {
     println(costsOfRegularWorkers)
     println(totalCost)
     println(middleIncome)
-
 }

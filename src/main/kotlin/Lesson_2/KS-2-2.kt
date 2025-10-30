@@ -1,14 +1,16 @@
 package org.example.Lesson_2
 
-const val EARN_REGULAR_WORKER = 30000
-const val EARN_INTERN_WORKER = 20000
+
 
 fun main() {
-    val regularWorker = 50
-    val internWOrker = 30
-    val totalWorkers = regularWorker + internWOrker
-    val costsOfRegularWorkers = EARN_REGULAR_WORKER * regularWorker
-    val costsOfInternWorkers = EARN_INTERN_WORKER * internWOrker
+    val earnRegularWorker = 30000
+    val earnInternWorker = 20000
+    val regularWorkers = 50
+    val internWorkers = 30
+
+    val totalWorkers = regularWorkers + internWorkers
+    val costsOfRegularWorkers = earnRegularWorker * regularWorkers
+    val costsOfInternWorkers = earnInternWorker * internWorkers
     val totalCost = costsOfRegularWorkers + costsOfInternWorkers
     val middleIncome = totalCost / totalWorkers
 
